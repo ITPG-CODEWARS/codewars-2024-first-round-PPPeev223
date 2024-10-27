@@ -6,7 +6,7 @@
     <title>Train Enthusiast - Влакове</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
     <style>
-        /* Основни стилове */
+       
         body {
             background: linear-gradient(120deg, #e3f2fd, #bbdefb); 
             font-family: Arial, sans-serif;
@@ -48,6 +48,19 @@
             color: #007BFF;
             font-weight: bold;
         }
+        .styled-paragraph {
+                  text-align: center;           
+                  font-size: 1.2rem;            
+                  color: #333333;          
+                  font-weight: bold;            
+                  line-height: 1.6;             
+                  margin: 20px auto;            
+                  max-width: 600px;             
+                  background-color: #f0f8ff;    
+                  padding: 10px;                
+                  border-radius: 8px;          
+                  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
+}
 
         .card {
             border: none;
@@ -89,7 +102,6 @@
             font-size: 0.9rem; 
         }
 
-        /* Адаптивност */
         @media (max-width: 768px) {
             .hero h1 {
                 font-size: 2rem; 
@@ -119,10 +131,10 @@
 
 <div class="container my-5">
     <h2>Видове влакове</h2>
-    <p>Тук ще откриете информация за различни типове влакове, техните технологии и история.</p>
+    
+    <p class="styled-paragraph">Тук ще откриете информация за различни типове влакове, техните технологии и история.</p>
     
     <div class="train-section">
-        <h3>Парни влакове</h3>
         <div class="row">
             <div class="col-md-4">
                 <div class="card">
@@ -148,6 +160,7 @@
                     <div class="card-body">
                         <h5 class="card-title">Дизелови влакове</h5>
                         <p class="card-text">Отлични за дълги разстояния и удобство.</p>
+                        <p class="card-text">Използват се и за пренасяне на стоки.</p>
                     </div>
                 </div>
             </div>
