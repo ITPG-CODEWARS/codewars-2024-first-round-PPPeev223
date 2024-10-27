@@ -1,10 +1,7 @@
 <h1 align="center"> Train Enthusiast <h1>
-<div align="center"> 
-</div>
-
-## 🔍 Description <a name="description"></a>
-<h1 align="center">  </h1>
-<p align="center"> </p>
+## 🔍 Description and idea <a name="description"></a>
+<h1 align="center"> Trains </h1>
+<p align="center"> My site is a description of trains and is an amateur site for people who are interested in trains and their history </p>
 
 ## 🖥️ Technologies used <a name="technologies"></a> 
 
