@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="bg">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Train Enthusiast - Влакове</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <style>
+        /* Основни стилове */
+        body {
+            background: linear-gradient(120deg, #e3f2fd, #bbdefb); 
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            color: #333;
+        }
+
+        .navbar {
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        }
+
+        .navbar-brand {
+            font-weight: bold;
+            color: #fff !important;
+        }
+
+        .nav-link {
+            color: #fff !important;
+            transition: color 0.3s ease;
+        }
+
+        .nav-link:hover {
+            color: #ffeb3b !important; 
+        }
+
+        .container h2 {
+            color: #007BFF;
+            font-weight: bold;
+            margin-bottom: 30px;
+            text-align: center;
+        }
+
+        .train-section {
+            margin-top: 40px;
+        }
+
+        .train-section h3 {
+            color: #007BFF;
+            font-weight: bold;
+        }
+
+        .card {
+            border: none;
+            border-radius: 15px;
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+            margin-bottom: 30px;
+        }
+
+        .card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3); 
+        }
+
+        .card-img-top {
+            border-radius: 15px 15px 0 0; 
+        }
+
+        .card-title {
+            font-weight: bold;
+            color: #007BFF; 
+        }
+
+        .card-text {
+            color: #555; 
+        }
+
+        footer {
+            background-color: #343a40; 
+            color: white;
+            text-align: center;
+            padding: 15px 0; 
+            position: relative;
+            bottom: 0;
+            width: 100%;
+        }
+
+        footer p {
+            margin: 0;
+            font-size: 0.9rem; 
+        }
+
+        /* Адаптивност */
+        @media (max-width: 768px) {
+            .hero h1 {
+                font-size: 2rem; 
+            }
+
+            .hero p {
+                font-size: 1.2rem; 
+            }
+        }
+    </style>
+</head>
+<body>
+
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <a class="navbar-brand" href="index.html">Train Enthusiast</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ml-auto">
+            <li class="nav-item"><a class="nav-link" href="index.html">Начало</a></li>
+            <li class="nav-item"><a class="nav-link" href="trains.html">Влакове</a></li>
+            <li class="nav-item"><a class="nav-link" href="contact.html">Контакти</a></li>
+        </ul>
+    </div>
+</nav>
+
+<div class="container my-5">
+    <h2>Видове влакове</h2>
+    <p>Тук ще откриете информация за различни типове влакове, техните технологии и история.</p>
+    
+    <div class="train-section">
+        <h3>Парни влакове</h3>
+        <div class="row">
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="images/1-german-class-50-steam-locomotive-david-davies.jpg" class="card-img-top" alt="Парен Влак">
+                    <div class="card-body">
+                        <h5 class="card-title">Парни влакове</h5>
+                        <p class="card-text">Истински класики на железопътната история.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="images/depositphotos_39533739-stock-photo-modern-train.jpg" class="card-img-top" alt="Електрически Влак">
+                    <div class="card-body">
+                        <h5 class="card-title">Електрически влакове</h5>
+                        <p class="card-text">Модерни и ефективни превозни средства.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="images/L721371.jpg" class="card-img-top" alt="Дизелов Влак">
+                    <div class="card-body">
+                        <h5 class="card-title">Дизелови влакове</h5>
+                        <p class="card-text">Отлични за дълги разстояния и удобство.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<footer>
+     <p>&copy; 2024 Train Enthusiast. Всички права запазени.</p>
+</footer>
+
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
